@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/07/20 13:47:33.000.871,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/26 15:24:25.000.060,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/26 15:54:48.000.864,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/26 16:00:21.000.697,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/28 12:36:06.000.695,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/28 13:44:21.000.314,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/04 11:21:20.000.596,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/04 15:05:37.000.964,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/04 15:12:55.000.301,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit1.dfm=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/08/04 15:12:55.000.301,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit1.pas=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/04 15:13:01.000.654,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Project1.dproj=C:\Users\ray\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/08/04 16:49:30.000.812,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit2.pas</Transaction>
+    <Transaction>2016/08/04 16:50:56.000.065,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\fmAddressEdit.dfm=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit2.dfm</Transaction>
+    <Transaction>2016/08/04 16:50:56.000.065,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\fmAddressEdit.pas=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit2.pas</Transaction>
+    <Transaction>2016/08/04 17:05:37.000.529,=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit2.pas</Transaction>
+    <Transaction>2016/08/04 17:05:53.000.547,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\dmAddressBook.pas=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit2.pas</Transaction>
+    <Transaction>2016/08/04 17:05:53.000.547,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\dmAddressBook.dfm=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit2.dfm</Transaction>
+    <Transaction>2016/08/05 11:07:41.000.299,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit1.pas=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\fmAddressBook.pas</Transaction>
+    <Transaction>2016/08/05 11:07:41.000.299,C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\Unit1.dfm=C:\Users\ray\Documents\Embarcadero\Studio\Projects\DbisamTest\fmAddressBook.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

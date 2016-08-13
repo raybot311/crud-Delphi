@@ -1,0 +1,69 @@
+object Dm: TDm
+  OldCreateOrder = False
+  Height = 402
+  Width = 497
+  object qAddressBook: TDBISAMQuery
+    DatabaseName = 'Z:\dbisamdata'
+    EngineVersion = '4.43 Build 1'
+    RequestLive = True
+    SQL.Strings = (
+      'SELECT'
+      '  *'
+      'FROM'
+      '  AddressBook'
+      'ORDER BY'
+      '  LastName, Firstname')
+    Params = <>
+    Left = 48
+    Top = 40
+    object qAddressBookAddressID: TAutoIncField
+      FieldName = 'AddressID'
+      Origin = 'AddressBook.AddressID'
+    end
+    object qAddressBookFirstname: TStringField
+      FieldName = 'Firstname'
+      Origin = 'AddressBook.Firstname'
+      Size = 25
+    end
+    object qAddressBookLastname: TStringField
+      FieldName = 'Lastname'
+      Origin = 'AddressBook.Lastname'
+      Size = 25
+    end
+    object qAddressBookAddress: TStringField
+      FieldName = 'Address'
+      Origin = 'AddressBook.Address'
+      Size = 40
+    end
+    object qAddressBookCity: TStringField
+      FieldName = 'City'
+      Origin = 'AddressBook.City'
+      Size = 25
+    end
+    object qAddressBookState: TStringField
+      FieldName = 'State'
+      Origin = 'AddressBook.State'
+      Size = 2
+    end
+    object qAddressBookZip: TIntegerField
+      FieldName = 'Zip'
+      Origin = 'AddressBook.Zip'
+    end
+  end
+  object dsAddressBook: TDataSource
+    Left = 152
+    Top = 40
+  end
+  object DBISAMTable1: TDBISAMTable
+    DatabaseName = 'Z:\dbisamdata'
+    EngineVersion = '4.43 Build 1'
+    TableName = 'AddressBook'
+    Left = 400
+    Top = 184
+  end
+  object DataSource1: TDataSource
+    DataSet = DBISAMTable1
+    Left = 304
+    Top = 256
+  end
+end

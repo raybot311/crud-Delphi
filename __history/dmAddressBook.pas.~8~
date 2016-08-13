@@ -1,0 +1,65 @@
+unit dmAddressBook;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, dbisamtb;
+
+type
+  TDm = class(TDataModule)
+    qAddressBook: TDBISAMQuery;
+    dsAddressBook: TDataSource;
+    qAddressBookAddressID: TAutoIncField;
+    qAddressBookFirstname: TStringField;
+    qAddressBookLastname: TStringField;
+    qAddressBookAddress: TStringField;
+    qAddressBookCity: TStringField;
+    qAddressBookState: TStringField;
+    qAddressBookZip: TIntegerField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure AddRecord(Fname, Lname, Address, City, State: string; Zip: integer);
+  end;
+
+var
+  Dm: TDm;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TDm }
+
+procedure TDm.AddRecord(Fname, Lname, Address, City, State: string; Zip: integer);
+begin
+  with qAddressBook do
+  begin
+    SQL.Clear;
+    SQL.Add('INSERT INTO AddressBook(Firstname,Lastname,Address,City,State,Zip)');
+    SQL.Add('VALUES(:Fname,:Lname,:Address,:City,:State,:Zip)');
+    PARAMS[0].AsString := Fname;
+    PARAMS[1].AsString := Lname;
+    PARAMS[2].AsString := Address;
+    PARAMS[3].AsString := City;
+    PARAMS[4].AsString := State;
+    PARAMS[5].AsInteger:= Zip;
+    ExecSQL;
+  end;
+
+  {
+  qAddressBook.Append;
+  qAddressBookFirstname.AsString := FName;
+  qAddressBookLastname.AsString := LName;
+  qAddressBookAddress.AsString := Address;
+  qAddressBookCity.AsString := City;
+  qAddressBookState.AsString := State;
+  qAddressBookZip.AsString := Zip;
+  qAddressBook.Post;
+  }
+end;
+
+end.
